@@ -1,6 +1,4 @@
-# Django-Boilerplate
-
-Django-Boilerplate for start a new project
+Book Api t
 
 ## How to set up project (with Docker)
 
