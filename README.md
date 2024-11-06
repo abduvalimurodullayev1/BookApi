@@ -35,11 +35,11 @@ cp .env.example .env
 ```bash
 sudo -u postgres psql
 CREATE DATABASE django_boilerplate;
-CREATE USER django_boilerplate WITH PASSWORD 'django_boilerplate';
-ALTER ROLE django_boilerplate SET client_encoding TO 'utf8';
-ALTER ROLE django_boilerplate SET default_transaction_isolation TO 'read committed';
-ALTER ROLE django_boilerplate SET timezone TO 'UTC';
-GRANT ALL PRIVILEGES ON DATABASE django_boilerplate TO django_boilerplate;
+CREATE USER django_boilerplate WITH PASSWORD 'BookApi';
+ALTER ROLE BookApi SET client_encoding TO 'utf8';
+ALTER ROLE BookApi SET default_transaction_isolation TO 'read committed';
+ALTER ROLE BookApi SET timezone TO 'UTC';
+GRANT ALL PRIVILEGES ON DATABASE django_boilerplate TO BookApi;
 \q
 ```
 
